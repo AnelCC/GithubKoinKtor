@@ -88,7 +88,81 @@ class MyFragment : Fragment() {
 | `single`   | Singleton     | ✅ Yes   | Repository, DB, API client  |
 | `factory`  | Prototype     | ❌ No    | Adapter, Formatter, UseCase |
 
-References:
 
+### 👀 What is Ktor android?
+Ktor is a Kotlin framework for building asynchronous clients and servers, developed by JetBrains. On Android, we mostly use the Ktor client to make network calls.
+Its seamless integration with coroutines and Kotlin's features, making it a powerful and flexible alternative to traditional networking libraries like Retrofit.
+
+
+### 🔑 Key Features of Ktor for Android:
+- Asynchronous and Kotlin-First: Ktor leverages Kotlin coroutines for asynchronous operations, enabling efficient handling of network requests without blocking the main thread.
+- Lightweight and Modular: You can include only the modules you need, leading to a smaller dependency footprint.
+- Multiplatform Support: Ktor is designed to be used across multiple platforms, including Android, iOS, JVM, and JavaScript. This allows you to share networking code between different platforms.
+- Extensibility: Ktor is highly extensible, allowing you to add custom plugins for logging, content negotiation, and more.
+- Flexible HTTP Client: Ktor provides fine-grained control over request building, logging, and custom pipelines, allowing you to tailor it to your specific needs.
+- Benefits of Using Ktor in Android Development: Modern Asynchronous Programming: Ktor's coroutine-based approach simplifies asynchronous programming, making it easier to handle network requests efficiently.
+- Seamless Kotlin Integration: Ktor's design aligns well with Kotlin's features, resulting in cleaner, more readable code.
+- Multiplatform Compatibility: Ktor can be used in Kotlin Multiplatform Mobile projects, allowing you to share networking code between Android and iOS applications.
+- Flexibility and Control: Ktor's modular architecture and extensibility allow you to customize it to your specific needs.
+- Backed by JetBrains: Being developed by JetBrains, Ktor benefits from the expertise and support of the Kotlin creators.
+
+
+📦 Ktor Android Dependency
+
+```Kotlin
+implementation("io.ktor:ktor-client-android:2.3.5")
+implementation("io.ktor:ktor-client-content-negotiation:2.3.5")
+implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.5")
+```
+
+⚡️ Create the HTTP Client
+
+```Kotlin
+val client = HttpClient(Android) {
+    install(ContentNegotiation) {
+        json()
+    }
+}
+```
+
+🛜 Make a network call 
+
+```Kotlin
+suspend fun getUserRepos(username: String): List<GitHubRepo> {
+    return client.get("https://api.github.com/users/$username/repos").body()
+}
+```
+
+🧐 Use in a ViewModel or Coroutine
+
+```Kotlin
+viewModelScope.launch {
+    val repos = getUserRepos("AnelCC")
+    Log.d("Repos", repos.toString())
+}
+```
+
+## 💡 Why Use Ktor on Android?
+💬 Clean DSL for requests (get, post, put, etc.)
+⚡️ Fully coroutine-based (no callbacks!)
+🔄 Built-in JSON serialization via kotlinx.serialization
+🌍 Multiplatform-ready (can reuse for KMM projects)
+🔒 Supports auth, headers, logging, retries, etc.
+
+
+🆚 Ktor Android vs Retrofit
+| Feature        | Ktor Android         | Retrofit                 |
+| -------------- | -------------------  | ------------------------ |
+| DSL-style      | ✅ Yes               | ❌ No (uses annotations) |
+| Coroutines     | ✅ Native            | ✅ With adapter          |
+| JSON Support   | ✅ Built-in          | ✅ Needs converter       |
+| KMM Support    | ✅ Yes               | ❌ No                    |
+| Learning Curve | Medium               | Easy                     |
+| Flexibility    | ✅ More customizable | Limited but simple       |
+
+
+References:
+https://ktor.io/
+https://ktor.io/docs/client-create-new-application.html#new-project
 https://developer.android.com/training/dependency-injection
 https://insert-koin.io/docs/quickstart/android/
