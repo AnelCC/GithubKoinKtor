@@ -1,4 +1,4 @@
-package com.hopcierge.githubkoinktor.ui.theme
+package com.hopcierge.githubkoinktor.presentation.theme
 
 import android.app.Activity
 import android.os.Build

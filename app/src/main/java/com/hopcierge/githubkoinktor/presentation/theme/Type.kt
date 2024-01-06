@@ -1,4 +1,4 @@
-package com.hopcierge.githubkoinktor.ui.theme
+package com.hopcierge.githubkoinktor.presentation.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
