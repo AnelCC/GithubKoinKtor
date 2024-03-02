@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.hopcierge.githubkoinktor"
+    namespace = "com.anelcc.githubkoinktor"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.hopcierge.githubkoinktor"
+        applicationId = "com.anelcc.githubkoinktor"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

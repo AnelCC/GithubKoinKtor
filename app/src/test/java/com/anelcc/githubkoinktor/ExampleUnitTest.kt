@@ -1,4 +1,4 @@
-package com.hopcierge.githubkoinktor
+package com.anelcc.githubkoinktor
 
 import org.junit.Test
 

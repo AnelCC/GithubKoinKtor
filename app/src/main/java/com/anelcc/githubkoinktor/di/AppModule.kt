@@ -1,10 +1,10 @@
-package com.hopcierge.githubkoinktor.di
+package com.anelcc.githubkoinktor.di
 
-import com.hopcierge.githubkoinktor.core.RepositoryApi
-import com.hopcierge.githubkoinktor.data.NetworkService
-import com.hopcierge.githubkoinktor.domain.GetUserRepositoriesUseCase
-import com.hopcierge.githubkoinktor.domain.GitHubRepository
-import com.hopcierge.githubkoinktor.presentation.ui.ReposViewModel
+import com.anelcc.githubkoinktor.core.RepositoryApi
+import com.anelcc.githubkoinktor.data.NetworkService
+import com.anelcc.githubkoinktor.domain.GetUserRepositoriesUseCase
+import com.anelcc.githubkoinktor.domain.GitHubRepository
+import com.anelcc.githubkoinktor.presentation.ui.ReposViewModel
 import io.ktor.client.HttpClient
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.serialization.kotlinx.json.json

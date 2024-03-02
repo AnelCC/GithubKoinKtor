@@ -1,4 +1,4 @@
-package com.hopcierge.githubkoinktor.data.model
+package com.anelcc.githubkoinktor.data.model
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

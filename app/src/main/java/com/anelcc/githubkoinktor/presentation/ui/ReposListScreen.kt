@@ -1,4 +1,4 @@
-package com.hopcierge.githubkoinktor.presentation.ui
+package com.anelcc.githubkoinktor.presentation.ui
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -37,7 +37,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.hopcierge.githubkoinktor.data.model.GitHubRepo
+import com.anelcc.githubkoinktor.data.model.GitHubRepo
 import org.koin.androidx.compose.koinViewModel
 
 @Composable

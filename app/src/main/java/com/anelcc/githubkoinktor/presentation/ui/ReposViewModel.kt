@@ -1,9 +1,9 @@
-package com.hopcierge.githubkoinktor.presentation.ui
+package com.anelcc.githubkoinktor.presentation.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.hopcierge.githubkoinktor.data.model.GitHubRepo
-import com.hopcierge.githubkoinktor.domain.GetUserRepositoriesUseCase
+import com.anelcc.githubkoinktor.data.model.GitHubRepo
+import com.anelcc.githubkoinktor.domain.GetUserRepositoriesUseCase
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch

@@ -1,4 +1,4 @@
-package com.hopcierge.githubkoinktor.presentation
+package com.anelcc.githubkoinktor.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,9 +8,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.hopcierge.githubkoinktor.presentation.theme.GithubKoinKtorTheme
-import com.hopcierge.githubkoinktor.presentation.ui.ReposListScreen
-import com.hopcierge.githubkoinktor.presentation.ui.ReposViewModel
+import com.anelcc.githubkoinktor.presentation.theme.GithubKoinKtorTheme
+import com.anelcc.githubkoinktor.presentation.ui.ReposListScreen
+import com.anelcc.githubkoinktor.presentation.ui.ReposViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class MainActivity : ComponentActivity() {

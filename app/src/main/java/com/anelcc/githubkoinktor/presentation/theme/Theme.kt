@@ -1,6 +1,5 @@
-package com.hopcierge.githubkoinktor.presentation.theme
+package com.anelcc.githubkoinktor.presentation.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

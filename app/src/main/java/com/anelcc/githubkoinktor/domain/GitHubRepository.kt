@@ -1,7 +1,7 @@
-package com.hopcierge.githubkoinktor.domain
+package com.anelcc.githubkoinktor.domain
 
-import com.hopcierge.githubkoinktor.core.RepositoryApi
-import com.hopcierge.githubkoinktor.data.model.GitHubRepo
+import com.anelcc.githubkoinktor.core.RepositoryApi
+import com.anelcc.githubkoinktor.data.model.GitHubRepo
 
 class GitHubRepository (private val gitHubService: RepositoryApi) {
     suspend fun getUserRepos(username: String): List<GitHubRepo> {

@@ -1,10 +1,10 @@
-package com.hopcierge.githubkoinktor
+package com.anelcc.githubkoinktor
 
 import android.app.Application
-import com.hopcierge.githubkoinktor.di.appModule
-import com.hopcierge.githubkoinktor.di.domainModule
-import com.hopcierge.githubkoinktor.di.repositoryModule
-import com.hopcierge.githubkoinktor.di.viewModelModule
+import com.anelcc.githubkoinktor.di.appModule
+import com.anelcc.githubkoinktor.di.domainModule
+import com.anelcc.githubkoinktor.di.repositoryModule
+import com.anelcc.githubkoinktor.di.viewModelModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 

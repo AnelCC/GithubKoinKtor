@@ -1,4 +1,4 @@
-package com.hopcierge.githubkoinktor.presentation.theme
+package com.anelcc.githubkoinktor.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 

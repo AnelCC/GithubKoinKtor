@@ -1,6 +1,6 @@
-package com.hopcierge.githubkoinktor.domain
+package com.anelcc.githubkoinktor.domain
 
-import com.hopcierge.githubkoinktor.data.model.GitHubRepo
+import com.anelcc.githubkoinktor.data.model.GitHubRepo
 
 
 class GetUserRepositoriesUseCase (private val repository: GitHubRepository) {

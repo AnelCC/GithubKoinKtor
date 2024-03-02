@@ -1,7 +1,7 @@
-package com.hopcierge.githubkoinktor.data
+package com.anelcc.githubkoinktor.data
 
-import com.hopcierge.githubkoinktor.core.RepositoryApi
-import com.hopcierge.githubkoinktor.data.model.GitHubRepo
+import com.anelcc.githubkoinktor.core.RepositoryApi
+import com.anelcc.githubkoinktor.data.model.GitHubRepo
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.request.get
