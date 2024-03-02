@@ -10,14 +10,18 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.hopcierge.githubkoinktor.presentation.theme.GithubKoinKtorTheme
 import com.hopcierge.githubkoinktor.presentation.ui.ReposListScreen
+import com.hopcierge.githubkoinktor.presentation.ui.ReposViewModel
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class MainActivity : ComponentActivity() {
+    private val viewModel: ReposViewModel by viewModel()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
             GithubKoinKtorTheme {
-                ReposListScreen()
+                ReposListScreen(viewModel)
             }
         }
     }
