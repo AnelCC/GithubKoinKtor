@@ -162,7 +162,7 @@ viewModelScope.launch {
 
 
 References:
-https://ktor.io/
-https://ktor.io/docs/client-create-new-application.html#new-project
-https://developer.android.com/training/dependency-injection
-https://insert-koin.io/docs/quickstart/android/
+- https://ktor.io/
+- https://ktor.io/docs/client-create-new-application.html#new-project
+- https://developer.android.com/training/dependency-injection
+- https://insert-koin.io/docs/quickstart/android/
