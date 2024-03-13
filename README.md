@@ -163,8 +163,8 @@ viewModelScope.launch {
 
 
 ## Preview 🎉
-<img src="https://raw.githubusercontent.com/AnelCC/GithubKoinKtor/refs/heads/main/image/started.png" width="180" height="300"/><img src="https://raw.githubusercontent.com/AnelCC/GithubKoinKtor/refs/heads/main/image/internet.png" width="180" height="300"/>
-<img src="https://raw.githubusercontent.com/AnelCC/GithubKoinKtor/refs/heads/main/image/list.png" width="180" height="300"/>
+<img src="https://raw.githubusercontent.com/AnelCC/GithubKoinKtor/refs/heads/main/image/started.png" width="180" height="400"/><img src="https://raw.githubusercontent.com/AnelCC/GithubKoinKtor/refs/heads/main/image/internet.png" width="180" height="400"/>
+<img src="https://raw.githubusercontent.com/AnelCC/GithubKoinKtor/refs/heads/main/image/list.png" width="180" height="400"/>
 
 References:
 - https://ktor.io/
