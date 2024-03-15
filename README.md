@@ -160,6 +160,11 @@ viewModelScope.launch {
 | Learning Curve | Medium               | Easy                     |
 | Flexibility    | ✅ More customizable | Limited but simple       |
 
+## Key Features:
+
+### Dependency Injection with Koin:
+- Modular DI setup with separate modules for network, repository, use cases, and ViewModels
+- Proper scoping (single, viewModel)
 
 
 ## Preview 🎉
