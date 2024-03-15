@@ -166,6 +166,10 @@ viewModelScope.launch {
 - Modular DI setup with separate modules for network, repository, use cases, and ViewModels
 - Proper scoping (single, viewModel)
 
+### Networking with Ktor:
+- HTTP client configured with JSON serialization
+- Service layer for GitHub API interactions
+- Proper error handling
 
 ## Preview 🎉
 <img src="https://raw.githubusercontent.com/AnelCC/GithubKoinKtor/refs/heads/main/image/started.png" width="180" height="400"/><img src="https://raw.githubusercontent.com/AnelCC/GithubKoinKtor/refs/heads/main/image/internet.png" width="180" height="400"/>
