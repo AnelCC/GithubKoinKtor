@@ -171,6 +171,12 @@ viewModelScope.launch {
 - Service layer for GitHub API interactions
 - Proper error handling
 
+### Clean Architecture:
+- Data models with Kotlinx Serialization
+- Repository pattern for data access
+- Use cases for business logic
+- ViewModel for UI state management
+
 ## Preview 🎉
 <img src="https://raw.githubusercontent.com/AnelCC/GithubKoinKtor/refs/heads/main/image/started.png" width="180" height="400"/><img src="https://raw.githubusercontent.com/AnelCC/GithubKoinKtor/refs/heads/main/image/internet.png" width="180" height="400"/>
 <img src="https://raw.githubusercontent.com/AnelCC/GithubKoinKtor/refs/heads/main/image/list.png" width="180" height="400"/>
