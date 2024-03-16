@@ -177,6 +177,12 @@ viewModelScope.launch {
 - Use cases for business logic
 - ViewModel for UI state management
 
+### Modern Android UI:
+- Jetpack Compose UI
+- Material Design 3
+- State management with StateFlow
+- Loading states and error handling
+
 ## Preview 🎉
 <img src="https://raw.githubusercontent.com/AnelCC/GithubKoinKtor/refs/heads/main/image/started.png" width="180" height="400"/><img src="https://raw.githubusercontent.com/AnelCC/GithubKoinKtor/refs/heads/main/image/internet.png" width="180" height="400"/>
 <img src="https://raw.githubusercontent.com/AnelCC/GithubKoinKtor/refs/heads/main/image/list.png" width="180" height="400"/>
